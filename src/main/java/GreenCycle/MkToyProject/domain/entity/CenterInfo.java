@@ -1,7 +1,9 @@
 package GreenCycle.MkToyProject.domain.entity;
 
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
@@ -16,6 +18,7 @@ public class CenterInfo {
     @Column(name = "detailId", unique = true, nullable = false)
     private long detailId;
 
+    @JsonIgnore
     @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "centerId")
     private CenterLocationInfo centerLocationInfo;
@@ -40,5 +43,4 @@ public class CenterInfo {
 
     @Column
     private String items;
-
 }
