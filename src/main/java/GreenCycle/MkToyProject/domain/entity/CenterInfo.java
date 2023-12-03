@@ -1,4 +1,4 @@
-package GreenCycle.MkToyProject.Domain.Entity;
+package GreenCycle.MkToyProject.domain.entity;
 
 
 import jakarta.persistence.*;
