@@ -21,4 +21,8 @@ public class CenterInfoService {
         return centerInfoRepository.findByCenterLocationInfo_Id(id);
     }
 
+    public Optional<CenterInfo> findById(long id) {
+        return centerInfoRepository.findById(id);
+    }
+
 }
