@@ -1,5 +1,6 @@
 package GreenCycle.MkToyProject.service;
 
+import GreenCycle.MkToyProject.domain.dto.ReviewInfoDto;
 import GreenCycle.MkToyProject.domain.entity.CenterInfo;
 import GreenCycle.MkToyProject.domain.entity.ReviewInfo;
 import GreenCycle.MkToyProject.repository.CenterInfoRepository;
@@ -19,6 +20,10 @@ public class ReviewService {
     @Transactional
     public void saveReview(ReviewInfo reviewInfo) {
         reviewRepository.save(reviewInfo);
+    }
+
+    public List<ReviewInfoDto> getAllReview(long id) {
+        return reviewRepository.findAllByCenterInfo_DetailId(id);
     }
 
 }

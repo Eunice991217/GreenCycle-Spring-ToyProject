@@ -1,5 +1,6 @@
 package GreenCycle.MkToyProject.controller;
 
+import GreenCycle.MkToyProject.domain.dto.ReviewInfoDto;
 import GreenCycle.MkToyProject.domain.entity.CenterInfo;
 import GreenCycle.MkToyProject.domain.entity.CenterLocationInfo;
 import GreenCycle.MkToyProject.domain.entity.ReviewInfo;
@@ -61,6 +62,10 @@ public class GreenCycleController {
         return new CreateReviewResponse(reviewInfo);
     }
 
+    @GetMapping("/api/review/{id}")
+    public List<ReviewInfoDto> getAllReview(@PathVariable("id") Long id) {
+        return reviewService.getAllReview(id);
+    }
 
     @Data
     static class CreateReviewRequest{
