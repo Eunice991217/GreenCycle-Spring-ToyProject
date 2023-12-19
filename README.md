@@ -6,16 +6,16 @@
 <img width="759" alt="image" src="https://github.com/Eunice991217/GreenCycle-Spring-ToyProject/assets/101406317/5935f621-2343-432f-b56f-330fe64cf12d">
 
 ## 🗂️ Model
-Context Model
+<p>Context Model</p>
 <img width="612" alt="image" src="https://github.com/Eunice991217/GreenCycle-Spring-ToyProject/assets/101406317/a5bcf7c9-c662-4e6b-93f1-a46f5e047463">
 
-Interaction Model
+<p>Interaction Model</p>
 <img width="697" alt="image" src="https://github.com/Eunice991217/GreenCycle-Spring-ToyProject/assets/101406317/6a1219c9-2439-40eb-a50a-8beae49ea2ca">
 
-Process Model
+<p>Process Model</p>
 <img width="805" alt="image" src="https://github.com/Eunice991217/GreenCycle-Spring-ToyProject/assets/101406317/9b6fd264-f81d-41ee-8f5f-c0fd5752e9de">
 
-Behavior Model
+<p>Behavior Model</p>
 <img width="806" alt="image" src="https://github.com/Eunice991217/GreenCycle-Spring-ToyProject/assets/101406317/14192f81-3447-4107-b18b-c2c9a581e421">
 
 ## 📷 ERD
@@ -24,7 +24,9 @@ Behavior Model
 ## 📝 Summary  
 
 - 전체 데이터는 232개의 데이터를 가져왔습니다.
-- UserInfo에는 User 정보를 포함하고, 
+- UserInfo에는 User 정보를 포함하고, ReviewInfo에는 리뷰 정보를 포함시켜서 "1:다"로 mapping 했습니다.
+- CenterLocationInfo에는 Center의 위치정보를 포함시키고, CenterInfo에는 detail 정보를 나타내고 있습니다.
+- Center위치와 Detail, Detail과 리뷰는 각각 1:1로 mapping했습니다.
 
 ## 🛠️ Tech Stack
 
