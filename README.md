@@ -3,23 +3,23 @@
 (소프트웨어공학 교과목 개인 프로젝트입니다.)
 
 ## 🧩 System Configuration
-<img width="759" alt="image" src="https://github.com/Eunice991217/GreenCycle-Spring-ToyProject/assets/101406317/5935f621-2343-432f-b56f-330fe64cf12d">
+<img width="600" alt="image" src="https://github.com/Eunice991217/GreenCycle-Spring-ToyProject/assets/101406317/5935f621-2343-432f-b56f-330fe64cf12d">
 
 ## 🗂️ Model
 <p>Context Model</p>
-<img width="612" alt="image" src="https://github.com/Eunice991217/GreenCycle-Spring-ToyProject/assets/101406317/a5bcf7c9-c662-4e6b-93f1-a46f5e047463">
+<img width="600" alt="image" src="https://github.com/Eunice991217/GreenCycle-Spring-ToyProject/assets/101406317/a5bcf7c9-c662-4e6b-93f1-a46f5e047463">
 
 <p>Interaction Model</p>
-<img width="697" alt="image" src="https://github.com/Eunice991217/GreenCycle-Spring-ToyProject/assets/101406317/6a1219c9-2439-40eb-a50a-8beae49ea2ca">
+<img width="600" alt="image" src="https://github.com/Eunice991217/GreenCycle-Spring-ToyProject/assets/101406317/6a1219c9-2439-40eb-a50a-8beae49ea2ca">
 
 <p>Process Model</p>
-<img width="805" alt="image" src="https://github.com/Eunice991217/GreenCycle-Spring-ToyProject/assets/101406317/9b6fd264-f81d-41ee-8f5f-c0fd5752e9de">
+<img width="600" alt="image" src="https://github.com/Eunice991217/GreenCycle-Spring-ToyProject/assets/101406317/9b6fd264-f81d-41ee-8f5f-c0fd5752e9de">
 
 <p>Behavior Model</p>
-<img width="806" alt="image" src="https://github.com/Eunice991217/GreenCycle-Spring-ToyProject/assets/101406317/14192f81-3447-4107-b18b-c2c9a581e421">
+<img width="600" alt="image" src="https://github.com/Eunice991217/GreenCycle-Spring-ToyProject/assets/101406317/14192f81-3447-4107-b18b-c2c9a581e421">
 
 ## 📷 ERD
-<img width="581" alt="image" src="https://github.com/Eunice991217/GreenCycle-Spring-ToyProject/assets/101406317/2d02a309-4016-4e56-9422-65352b90690f">
+<img width="600" alt="image" src="https://github.com/Eunice991217/GreenCycle-Spring-ToyProject/assets/101406317/2d02a309-4016-4e56-9422-65352b90690f">
 
 ## 📝 Summary  
 
